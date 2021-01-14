@@ -1,0 +1,4 @@
+#Identify broadcast address
+ifconfig | grep "broadcast " | awk '{print $5 " " $6}'
+#Identify all IP adresses which are part of the same subnet
+ip neigh | awk '{print $1}'

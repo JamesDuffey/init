@@ -1,0 +1,1 @@
+echo A Script that prints this... Amazing right!
